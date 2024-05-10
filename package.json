@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next build && next start",
+    "lint": "prettier --plugin=prettier-plugin-tailwindcss -w . && next lint --fix"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-icons": "latest",
+    "@radix-ui/react-slot": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "next-auth": "beta",
+    "next-themes": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "latest",
+    "shiki": "latest",
+    "sonner": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest",
+    "vaul": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^8",
+    "eslint-config-next": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-tailwindcss": "latest",
+    "postcss": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
